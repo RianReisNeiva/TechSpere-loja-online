@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <title>Loja online</title>
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/style.css">
+   
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+   
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="TechSphere - Loja de tecnologia, online" />
+   <meta property="og:image" content="https://m.media-amazon.com/images/I/61rlEGf5l6L._AC_UF894,1000_QL80_FMwebp_DpWeblab_.jpg" />
+</head>
+
+<body>
+    
+ <header>
+     <div id="navbar">
+         <input type="text" name="pesquisar" id="pesquisa" placeholder="pesquisar produto...">
+         <button><img src="assets/imagens/magnifying-glass.png"></button>
+         </div>
+         <button class="carrinho" id="abrir"><img src="assets/imagens/cart.png"><h5 id="contagem-de-item">1</h5></button>     
+ </header>
+ 
+ <main>
+    <section class="galeria" id="galery">
+        
+        <div id="notebook">
+            <div class="card-produto">
+               <img src="assets/imagens/notebook.webp">
+               <div class="descricao">
+                   <h5>Notebook Multi Ultra Celeron
+N4020C 4GB 128GB W11</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$4.500</h3>
+                   <button class="add-carrinho" data-name="notebook" data-descricao="Notebook Multi Ultra CeleronN4020C 4GB 128GB W11" data-preco ="4.500" data-imagem ="assets/imagens/notebook.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div>               
+            </div>
+        </div>
+        
+        
+        <div id="ps5">
+            <div class="card-produto">
+               <img src="assets/imagens/ps5.webp">
+               <div class="descricao">
+                   <h5>Playstation 5 com 1 Controler Dualsence 1TB</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$5.000</h3>
+                   <button class="add-carrinho" data-name="ps5" data-descricao="Playstation 5 com 1 Controler Dualsence 1TB" data-preco="5.000" data-imagem="assets/imagens/ps5.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div>   
+            </div>
+        </div>
+        
+        <div id="pocox3">
+            <div class="card-produto">
+               <img src="assets/imagens/pocoX3.jpg.webp">
+               <div class="descricao">
+                   <h5>Celular Xiaomi Poco X3, 128g 8g de ram 4 Câmeras de alta definição</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$1.400</h3>
+                   <button class="add-carrinho"
+                   data-name="Pocox3" data-descricao="Celular Xiaomi Poco X3, 128g 8g de ram 4 Câmeras de alta definição" data-preco ="1.400" data-imagem ="assets/imagens/pocoX3.jpg.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div> 
+            </div>
+        </div>
+        
+        <div id="pc">
+            <div class="card-produto">
+               <img src="assets/imagens/pc.webp">
+               <div class="descricao">
+                   <h5>Computador para escritório completo Icore 3, 1 monitor Philco, um teclado reage</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$3.200</h3>
+                   <button class="add-carrinho"
+                   data-name="Pc" data-descricao="Computador para escritório completo Icore 3, 1 monitor Philco, um teclado reage" data-preco ="3.200" data-imagem ="assets/imagens/pc.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div> 
+            </div>
+        </div>
+        
+        <div id="s24">
+            <div class="card-produto">
+               <img src="assets/imagens/s24-ultra.webp">
+               <div class="descricao">
+                   <h5>Samsung Galaxy S24 Ultra 5G, 256GB e 16GB de RAM, Ultra zoom de 150X e Spen..</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$5.000</h3>
+                   <button class="add-carrinho"
+                   data-name="S24" data-descricao="Samsung Galaxy S24 Ultra 5G, 256GB e 16GB de RAM, Ultra zoom de 150X e Spen.." data-preco ="5.000" data-imagem ="assets/imagens/s24-ultra.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div> 
+            </div>
+        </div>
+        
+        <div id="notebook-gamer">
+            <div class="card-produto">
+               <img src="assets/imagens/notebook-gamer.webp">
+               <div class="descricao">
+                   <h5>Notebook Gamer INFINIX RTX 3090 2TB Icore 5 Tela de 244hz 2K HDR+</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$7.000</h3>
+                   <button class="add-carrinho"
+                   data-name="notebook gamer" data-descricao="Notebook Gamer INFINIX RTX 3090 2TB Icore 5 Tela de 244hz 2K HDR+" data-preco ="7.000" data-imagem ="assets/imagens/notebook-gamer.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div> 
+            </div>
+        </div>
+        
+        <div id="ps4">
+            <div class="card-produto">
+               <img src="assets/imagens/ps4.webp">
+               <div class="descricao">
+                   <h5>Playstation 4 Slim 1TB e com 1 Controle DUALSHOCK™4</h5>
+               </div>
+               <div class="preco">
+                   <h3>R$2.000</h3>
+                   <button class="add-carrinho"
+                   data-name="ps4" data-descricao="Playstation 4 Slim 1TB e com 1 Controle DUALSHOCK™4" data-preco ="2.000" data-imagem ="assets/imagens/ps4.webp">
+                       <img src="assets/imagens/cart.png">
+                   </button>
+               </div> 
+            </div>
+        </div>
+        
+    </section> 
+ </main>
+ 
+ <section id="carrinho">
+     <h1>Carrinho</h1>
+     <div id="Todos-os-Desejos">
+         <div class="produto-carrinho">
+            <img class="imgCarro" src="assets/imagens/notebook.webp">
+            <div class="descricao-carrinho">
+                <h5>Notebook Multi Ultra Celeron N4020C 4GB 128GB W11</h5>
+                <div class="preco-quantidade">
+                    <button class="mais">+</button>
+                    <h5 class="quantidade">1</h5>
+                    <button class="menos">-</button>
+                    </div>
+                    <h4>R$</h4>
+                    <h4 class="preco-produto">4.500</h4>
+                
+            </div>
+        </div>
+     </div>
+         
+     <div class="botoes">
+     <button id="fechar">Fechar</button>
+     <div id="preco-total">
+     <h2>Total: R$</h2>     
+     <h2 id="total-carrinho">10.000</h2>
+     </div>
+     <button id="comprar">Comprar</button>
+     </div>
+ </section>
+ 
+ <!-- painel de compra -->
+ <div id="painel-comprar">
+     <div id="card-comprar">
+         <h2>Itens</h2>
+         <div id="itens-comprar">
+             <p>Produto: </p>
+             <p>Quantidade: </p>
+             <p>valor: R$</p>
+         </div>
+         <div class="botoes-comprar">
+            <button id="cancelar">cancelar</button>
+            <p id="total-comprar">600</p>
+            <button id="finalizar">Finalizar</button> 
+         </div>
+     </div>
+ </div>
+ 
+ <!-- formulário email -->
+ <div id="container-email">
+     <div id="email-card">
+             <h1>TechSphere<img src="assets/imagens/close.png" class="close"></h1>
+             <div id="itens-email">
+             <img src="assets/imagens/user.png" class="avatar">
+             <div class="email-btn">
+             <input type="email" name="" placeholder="E-mail" id="email">
+             <button id="salvar-email">Salvar</button>
+             </div>
+       </div>     
+     </div>
+ </div>
+ 
+ <footer>
+             <button id="perfil"><img src="assets/imagens/user.png"> </button>
+         
+ </footer>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script src="src/script.js"></script>
+</body>
+</html>
